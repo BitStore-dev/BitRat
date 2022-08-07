@@ -1,0 +1,17 @@
+pip install winreg
+pip install ctypes
+pip install sys
+pip install os
+pip install ssl
+pip install random
+pip install threading
+pip install time
+pip install cv2
+pip install subprocess
+pip install discord
+pip install comtypes
+pip install pycaw.pycaw
+pip install discord.ext
+pip install ctypes
+pip install asyncio
+pip install discord 
