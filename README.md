@@ -17,15 +17,15 @@ This tool is for educational use only, the author will not be held responsible f
 If you want to compile the bot to exe you can use PyInstaller.\
 Inside the directory of the bot execute 
 ```
-PyInstaller --onefile --noconsole DiscordRAT.py
+PyInstaller --onefile --noconsole BitRat.py
 ```
 Or 
 ``` 
-python3 -m PyInstaller --onefile --noconsole "DiscordRAT.py"
+python3 -m PyInstaller --onefile --noconsole "BitRat.py"
 ```
 If an error occured during compiling try to import the discord module 
 ```
-PyInstaller --onefile --noconsole --hidden-import=discord DiscordRAT.py
+PyInstaller --onefile --noconsole --hidden-import=discord BitRat.py
 ```
 
 ## **Modules**
@@ -71,4 +71,11 @@ Availaible commands are :
 * To suggest features, create an issue
 
 # Libraries
-- soon
+- discord
+- asyncio
+- mss
+- browserhistory
+- pyautogui
+- pynput
+- pycaw
+- pywin32
