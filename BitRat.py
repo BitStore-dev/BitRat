@@ -13,7 +13,7 @@ from discord.ext import commands
 from ctypes import *
 import asyncio
 from discord import utils
-token = '' #Enter your token here
+token = '' #Paste your Bot Token here
 global appdata
 appdata = os.getenv('APPDATA')
 client = discord.Client()
